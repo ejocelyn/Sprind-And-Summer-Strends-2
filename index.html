@@ -25,11 +25,16 @@
         font-style: normal;
         text-align: center;
         border-bottom: 3px #5F090A solid;
-        background-color: #F8F3EA; 
        }
       
       body {
           background-color: #F8F3EA; 
+      }
+      
+      img{
+        width: 40%;
+        float: left;
+        padding: 25px 50px;
       }
       
        h1 {
@@ -43,19 +48,33 @@
         text-align: center;
       }
       
-      img{
-        width: 45%;
-        float: left;
-        padding: 50px;
-      }
-      
        p {
          font-family: "Quicksand", sans-serif;
-          font-optical-sizing: auto;
-          font-weight: <weight>;
           font-style: normal;
           text-align: center;
           padding: 0px 50px;
+      }
+      
+      #nav {
+        font-size: 2em;
+        font-weight: 700;
+      }
+      
+      #nav ul{
+         margin: 0;
+        padding: 0;
+      }
+      
+      #nav li{
+        list-style: none;
+        display: inline; 
+      }
+      
+      #nav a{
+      text-decoration: none; 
+      margin-right: 1.5em;
+      padding: 5px 10px;
+      color: #5F090A;
       }
     
     </style>
@@ -64,7 +83,15 @@
   
   <body>
     <div class="header">
-  <h1>Stiches</h1>
+      <h1>Stiches</h1>
+        <div id="nav">
+          <ul>
+            <li><a href="/">Spring and Summer Trends</a></li>
+            <li><a href="/">Fashion News</a></li>
+            <li><a href="/">Contact Us</a></li>
+            <li><a href="/">About Us</a></li>
+          </ul>
+        </div>
     </div>
     
     <h2>
@@ -77,6 +104,7 @@
       <br>Below are the top 5 trends we are seeing right now for spring &amp summer 2025.
     </p>
     
+    <!-- Runway Images -->
     <img src="Spring_Trend_1.jpg" alt="Model walking on runway wearing a mid-length, pastel green Versache dress with purple trim.">
     <img src="Spring_Trend_2.jpg" alt="Model walking on runway wearing a Michael Kohrs white turtleneck sweater and white skirt with a tan coloured belt, bag, and shoes.">
     <img src="Spring_Trend_3.jpg" alt="Model walking on runway wearing a lime green, short, A line dress with small straps, round sunglasses and lime green heels.">
