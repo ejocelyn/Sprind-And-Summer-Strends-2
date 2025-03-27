@@ -27,14 +27,18 @@
         border-bottom: 3px #5F090A solid;
        }
       
+      #content {
+        width: 100%;      
+      }
+      
       body {
           background-color: #F8F3EA; 
       }
       
       img{
-        width: 40%;
         float: left;
-        padding: 25px 50px;
+        padding: 25px 0px;
+        width: 500px;
       }
       
        h1 {
@@ -52,7 +56,15 @@
          font-family: "Quicksand", sans-serif;
           font-style: normal;
           text-align: center;
-          padding: 0px 50px;
+          padding: 0px 100px;
+      }
+      
+       .left {
+        width: 40%;
+        float: left;
+        display: inline;
+        clear: none;
+        padding-left: 100px
       }
       
       #nav {
@@ -94,6 +106,7 @@
         </div>
     </div>
     
+    <div id="content">
     <h2>
       Spring &amp Summer Trends
     </h2>
@@ -103,14 +116,19 @@
 
       <br>Below are the top 5 trends we are seeing right now for spring &amp summer 2025.
     </p>
-    
+    <div class="left">
     <!-- Runway Images -->
     <img src="Spring_Trend_1.jpg" alt="Model walking on runway wearing a mid-length, pastel green Versache dress with purple trim.">
+   
     <img src="Spring_Trend_2.jpg" alt="Model walking on runway wearing a Michael Kohrs white turtleneck sweater and white skirt with a tan coloured belt, bag, and shoes.">
+      
     <img src="Spring_Trend_3.jpg" alt="Model walking on runway wearing a lime green, short, A line dress with small straps, round sunglasses and lime green heels.">
+      
     <img src="Spring_Trend_4.jpg" alt="Model walking on runway wearing a short, light blue dress, with white lace trim, long sleves, and ruffles.">
+      
     <img src="Spring_Trend_5.jpg" alt="Model walking on runway wearing a sheer green sleveless top, and light grey, wide leg, dress pants.">
-        
+    </div>
+    </div>  
   </body>
   
 </html>
